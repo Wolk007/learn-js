@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <script>
+      /*репишите функцию, чтобы она делала то же самое, но без if, в одну строку.
+
+      Сделайте два варианта функции checkAge:
+
+      Используя оператор ?
+      Используя оператор ||
+            */
+      //  Используя оператор ?
+      function checkAge(age) {
+        return age > 18 ? true : confirm("Родители разрешили?");
+      }
+      // Используя оператор ||
+      function checkAge(age) {
+        return age > 18 || confirm("Родители разрешили?");
+      }
+    </script>
+  </body>
+</html>
