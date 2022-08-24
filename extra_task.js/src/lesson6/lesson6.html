@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <script>
+      let name = prompt("Введите имя.", "");
+      while (name == "") {
+        name = prompt("Введите имя.", "");
+      }
+      num = prompt("Введите сумму.", "");
+      while (num == "") {
+        num = prompt("Введите сумму.", "");
+      }
+      alert(`Перечислить пользователю  ${name} сумму ${num} гривен?`);
+      alert(`Результат операции:Вы перевели ${name} ${num} гривен.`);
+    </script>
+  </body>
+</html>
