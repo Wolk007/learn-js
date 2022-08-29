@@ -1,0 +1,16 @@
+let a = 10;
+let b = true;
+let c = "Foo";
+let d = null;
+let e = undefined;
+let type_a = typeof a;
+let messege_a = `Тип переменной -  ${type_a} , значение ${a}`;
+alert(messege_a);
+let messege_b = `Тип переменной - ${typeof b} , значение ${b}`;
+alert(messege_b);
+let messege_c = `Тип переменной - ${typeof c}, значение ${c}`;
+alert(messege_c);
+let messege_d = `Тип переменной - ${typeof d}, значение ${d}`;
+alert(messege_d);
+let messege_e = `Тип переменной - ${typeof e}, значение ${e}`;
+alert(messege_e);
